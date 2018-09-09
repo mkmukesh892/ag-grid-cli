@@ -8,9 +8,8 @@ import {RedComponentComponent} from "../red-component/red-component.component";
   styleUrls: ['./my-grid-application.component.css']
 })
 export class MyGridApplicationComponent implements OnInit {
-private columnDefs: any[];
-private rowData: any[];
-private gridOptions: GridOptions;
+
+ gridOptions: GridOptions;
 
   constructor() {
     this.gridOptions=<GridOptions>{};

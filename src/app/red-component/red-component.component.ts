@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./red-component.component.css']
 })
 export class RedComponentComponent implements OnInit {
-  private params: any;
+  params: any;
   constructor() { }
 
   ngOnInit() {
   }
-  agInit(params:any): void{
+  agInit(params: any): void{
     this.params=params;
   }
 
